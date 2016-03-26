@@ -6,6 +6,11 @@
     "scripts": ["background.js"]
   },
 
+  "icons": { "16": "logo.png",
+           "48": "logo.png",
+          "128": "logo.png" 
+          },
+
  "permissions": [
     "activeTab",
     "tabs",
@@ -23,6 +28,7 @@
     }
   ],
   "browser_action": {
-    "default_icon": "logo.png"
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
   }
 }

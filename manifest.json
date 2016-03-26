@@ -6,7 +6,14 @@
     "scripts": ["background.js"]
   },
 
+<<<<<<< HEAD
   
+=======
+  "icons": { "16": "logo.png",
+           "48": "logo.png",
+          "128": "logo.png" 
+          },
+>>>>>>> origin/main
 
  "permissions": [
     "activeTab",
@@ -14,6 +21,7 @@
     "https://ajax.googleapis.com/"
   ],
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   "content_scripts": [
     {
@@ -24,6 +32,9 @@
 
     }
   ],
+=======
+  
+>>>>>>> origin/main
 =======
   
 >>>>>>> origin/main
@@ -38,6 +49,7 @@
     }
   ],
   "browser_action": {
-    "default_icon": "logo.png"
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
   }
 }

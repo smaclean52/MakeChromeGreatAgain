@@ -1,13 +1,13 @@
 // background.js
 
-// Called when the user clicks on the browser action.
-chrome.tabson.Created.addListener(function(tab) {
-  // Send a message to the active tab
- alert("Listener triggered");
-  var myAudio = new Audio();        // create the audio object
-	myAudio.src = "sounds/On Rosie Fat Ugly Face.mp3"; // assign the audio file to it
+chrome.tabs.onCreated.addListener(function(tab){
+    //alert("new tab "+tab.id);
+     // Send a message to the active tab
+	 var max = 20;
+	var min = 1;
+  	var myAudio = new Audio();        // create the audio object
+	myAudio.src = "sounds/"+(Math.floor(Math.random() * (max - min + 1)) + min ) +".mp3"; // assign the audio file to it
 	myAudio.play(); 
 
+
 });
-
-

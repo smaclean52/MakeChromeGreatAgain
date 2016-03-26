@@ -6,14 +6,12 @@
     "scripts": ["background.js"]
   },
 
-<<<<<<< HEAD
-  
-=======
+
   "icons": { "16": "logo.png",
            "48": "logo.png",
           "128": "logo.png" 
           },
->>>>>>> origin/main
+
 
  "permissions": [
     "activeTab",
@@ -21,8 +19,7 @@
     "https://ajax.googleapis.com/"
   ],
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   "content_scripts": [
     {
       "matches": ["http://www.google.com/*"],
@@ -32,12 +29,7 @@
 
     }
   ],
-=======
-  
->>>>>>> origin/main
-=======
-  
->>>>>>> origin/main
+
 "content_scripts": [
 
     {

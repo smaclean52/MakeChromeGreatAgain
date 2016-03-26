@@ -20,8 +20,8 @@
   ],
 
 
-<<<<<<< HEAD
- /* "content_scripts": [
+
+  "content_scripts": [
     {
       "matches": ["http://www.google.com/*"],
       "js": ["content.js"],
@@ -30,10 +30,9 @@
 
     }
   ],
-  */
+  
 
-=======
->>>>>>> origin/main
+
 "content_scripts": [
 
     {

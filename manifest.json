@@ -5,10 +5,8 @@
   "background": {
     "scripts": ["background.js"]
   },
-<<<<<<< HEAD
-  "content_scripts": [
-=======
-  "permissions": [
+
+ "permissions": [
     "activeTab",
     "https://ajax.googleapis.com/"
   ],
@@ -19,9 +17,9 @@
       "js": ["content.js"],
       "run_at": "document_end" 
     }
-  ]
+  ],
 "content_scripts": [
->>>>>>> origin/main
+
     {
       "matches": [
         "<all_urls>"

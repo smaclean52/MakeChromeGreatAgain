@@ -12,13 +12,7 @@
     "https://ajax.googleapis.com/"
   ],
 
-  "content_scripts": [
-    {
-      "matches": ["http://www.google.com/*"],
-      "js": ["content.js"],
-      "run_at": "document_end" 
-    }
-  ],
+  
 "content_scripts": [
 
     {

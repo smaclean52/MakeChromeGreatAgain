@@ -19,11 +19,6 @@
     "https://ajax.googleapis.com/"
   ],
 
-
-<<<<<<< HEAD
-
-  "content_scripts": [
-=======
  /* "content_scripts": [
 >>>>>>> origin/main
     {
@@ -40,7 +35,6 @@
 
 =======
   */
->>>>>>> origin/main
 "content_scripts": [
 
     {

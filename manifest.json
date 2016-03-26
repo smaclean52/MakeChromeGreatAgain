@@ -20,7 +20,7 @@
   ],
 
 
-  "content_scripts": [
+ /* "content_scripts": [
     {
       "matches": ["http://www.google.com/*"],
       "js": ["content.js"],
@@ -29,6 +29,7 @@
 
     }
   ],
+  */
 
 "content_scripts": [
 

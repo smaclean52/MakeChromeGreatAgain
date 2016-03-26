@@ -21,7 +21,7 @@ if (((currentLocation.indexOf("hotel") != -1) || (currentLocation.indexOf("inn")
   for (i = 0; i < searchP.length; i++)
   {
   	if (searchP[i].innerHTML.search("Mexico") != -1) {
-  		document.getElementsByTagName("body")[0].setAttribute("class", "overlay");
+  	document.getElementsByTagName("body")[0].setAttribute("class", "overlay");
 		var x = document.createElement("IMG");
 		x.setAttribute("src", "http://thumb101.shutterstock.com/display_pic_with_logo/660385/212125063/stock-photo-grunge-red-brick-wall-background-with-copy-space-212125063.jpg");
 		x.setAttribute("id", "overlay2");
@@ -29,12 +29,13 @@ if (((currentLocation.indexOf("hotel") != -1) || (currentLocation.indexOf("inn")
 		chrome.tabs.insertCSS(null, { file: "override.css" });
 		break;
   	}
-  	
-  	for (i = 0; i < searchP.length; i++)
-  	{
-  	if (searchP[i].innerHTML.search("China") != -1) {
-  		
-		break;
-  	}
   }
+
+	for (i = 0; i < searchP.length; i++)
+	{
+	 if (searchP[i].innerHTML.search("China") != -1) 
+	    break;
+    }
+	
+  
 

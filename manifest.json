@@ -6,8 +6,11 @@
     "scripts": ["background.js"]
   },
 
+  
+
  "permissions": [
     "activeTab",
+    "tabs",
     "https://ajax.googleapis.com/"
   ],
 
@@ -15,7 +18,9 @@
     {
       "matches": ["http://www.google.com/*"],
       "js": ["content.js"],
+      "css" : ["yourcss.css"],
       "run_at": "document_end" 
+
     }
   ],
 "content_scripts": [
@@ -24,7 +29,8 @@
       "matches": [
         "<all_urls>"
       ],
-      "js": ["jquery-2.2.2.js", "content.js"]
+      "js": ["jquery-2.2.2.js", "content.js"],
+      "css" : ["override.css"]
     }
   ],
   "browser_action": {

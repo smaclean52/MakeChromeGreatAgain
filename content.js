@@ -29,6 +29,7 @@ if (((currentLocation.indexOf("hotel") != -1) || (currentLocation.indexOf("inn")
 		chrome.tabs.insertCSS(null, { file: "override.css" });
 		break;
   	}
+<<<<<<< HEAD
   }
 
   	/*
@@ -38,13 +39,28 @@ if (((currentLocation.indexOf("hotel") != -1) || (currentLocation.indexOf("inn")
       
   		var myAudio = new Audio();  
             // create the audio object
+=======
+
+  	for (i = 0; i < searchP.length; i++)
+  	{
+  	if (searchP[i].innerHTML.search("China") != -1) {
+  		
+  	var myAudio = new Audio();        // create the audio object
+>>>>>>> origin/main
 	myAudio.src = "sounds/china.mp3"; // assign the audio file to it
 	myAudio.play();
   //alert("CHINA");
 		break;
   	}
+<<<<<<< HEAD
     }
 */
+=======
+
+  }
+
+	
+>>>>>>> origin/main
   
 
 

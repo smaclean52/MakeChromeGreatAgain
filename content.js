@@ -34,6 +34,9 @@ if (((currentLocation.indexOf("hotel") != -1) || (currentLocation.indexOf("inn")
   	{
   	if (searchP[i].innerHTML.search("China") != -1) {
   		
+  		var myAudio = new Audio();        // create the audio object
+	myAudio.src = "sounds/china.mp3"; // assign the audio file to it
+	myAudio.play();
 		break;
   	}
   }

@@ -42,11 +42,6 @@ if (((currentLocation.indexOf("hotel") != -1) || (currentLocation.indexOf("inn")
 
   }
 
-	for (i = 0; i < searchP.length; i++)
-	{
-	 if (searchP[i].innerHTML.search("China") != -1) 
-	    break;
-    }
 	
   
 
